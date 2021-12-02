@@ -1,1 +1,3 @@
 remote_theme: NovelTree/jekyll-doc-theme@gh-pages
+gems:
+- jekyll-seo-tag
