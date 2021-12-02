@@ -14,10 +14,10 @@ title: Categories
     {% for tag in site.categories %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-expo-book">
-      {% for post in tag[1] %}
-        <a class="book-title" href="{{ site.baseurl }}{{ post.url }}">
+      {% for book in tag[1] %}
+        <a class="book-title" href="{{ site.baseurl }}{{ book.url }}">
       <li>
-        {{ post.title }}
+        {{ book.title }}
       <small class="book-date">{{ book.date | date_to_string }}</small>
       </li>
       </a>
