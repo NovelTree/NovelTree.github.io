@@ -3,7 +3,7 @@ layout: default
 title: Books
 ---
 
-<div class="posts">
+<div class="books">
   {% for book in paginator.books %}
   <div class="book">
     <h1 class="book-title">
@@ -22,7 +22,7 @@ title: Books
     <article>
       {{ book.excerpt | markdownify }}
     <article>
-    <div class="post-more">
+    <div class="book-more">
       {% if site.disqus_short_name %}
       <a href="{{ site.baseurl }}{{ book.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
       {% endif %}
