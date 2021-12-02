@@ -1,3 +1,6 @@
 remote_theme: NovelTree/jekyll-doc-theme@gh-pages
 gems:
 - jekyll-seo-tag
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
